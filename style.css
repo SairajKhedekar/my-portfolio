@@ -85,6 +85,17 @@ img {
     border-radius: 5px;
 }
 
+/* New style for the profile photo */
+.profile-photo {
+    width: 180px; /* Adjust size as needed */
+    height: 180px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 5px solid #2c3e50; /* Add a border for emphasis */
+    margin-bottom: 30px; /* Space below the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -252,6 +263,12 @@ footer p {
     section {
         padding: 20px 15px;
         margin: 15px auto;
+    }
+
+    .profile-photo {
+        width: 120px; /* Smaller size for mobile */
+        height: 120px;
+        margin-bottom: 20px;
     }
 
     .portfolio-grid {
