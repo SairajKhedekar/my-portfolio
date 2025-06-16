@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -21,6 +21,10 @@
 
     <main>
         <section id="home">
+            <!-- Profile photo added here -->
+            <img src="Apr- A0393.jpg" alt="Sairaj Khedekar Profile Photo" class="profile-photo">
+            <!-- Added name under the photo -->
+            <h2 class="profile-name">Sairaj Khedekar</h2>
             <h1>Welcome to My Website!</h1>
             <p>Hello there! I'm delighted to have you here. This is a simple personal website built to showcase my skills and projects.</p>
         </section>
@@ -35,22 +39,34 @@
             <p>Here are some of my recent projects:</p>
             <div class="portfolio-grid">
                 <div class="project-item">
-                    <img src="project1.jpeg" alt="Project 1">
+                    <!-- Wrapped image with anchor tag for clickability -->
+                    <a href="https://github.com/SairajKhedekar/my-webpage" target="_blank" aria-label="View Project One on GitHub">
+                        <img src="project1.jpeg" alt="Project 1">
+                    </a>
                     <h3>Project One</h3>
                     <p>It's my profile page.</p>
                 </div>
                 <div class="project-item">
-                    <img src="project2.jpeg" alt="Project 2">
+                    <!-- Wrapped image with anchor tag for clickability -->
+                    <a href="https://github.com/SairajKhedekar/project-two-repo" target="_blank" aria-label="View Project Two on GitHub">
+                        <img src="project2.jpeg" alt="Project 2">
+                    </a>
                     <h3>Project Two</h3>
                     <p>My restaurant webpage.</p>
                 </div>
                 <div class="project-item">
-                    <img src="project3.jpeg" alt="Project 3">
+                    <!-- Wrapped image with anchor tag for clickability -->
+                    <a href="https://github.com/SairajKhedekar/RFID" target="_blank" aria-label="View Project Three on GitHub">
+                        <img src="project3.jpeg" alt="Project 3">
+                    </a>
                     <h3>Project Three</h3>
                     <p>Details about my RFID based attendance system.</p>
                 </div>
                 <div class="project-item">
-                    <img src="project4.jpeg" alt="Project 4">
+                    <!-- Wrapped image with anchor tag for clickability -->
+                    <a href="https://github.com/SairajKhedekar/homeauto" target="_blank" aria-label="View Project Four on GitHub">
+                        <img src="project4.jpeg" alt="Project 4">
+                    </a>
                     <h3>Project Four</h3>
                     <p>Another exciting project Home automation.</p>
                 </div>
